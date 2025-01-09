@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include 'includes/header.php'; ?>
+<?php include './includes/header.php'; ?>
     <!-- Banner -->
     <header>
     <div class="w-100 position-relative overflow-hidden" style="height: 35rem;">
@@ -44,9 +44,8 @@
         <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia delectus ex perferendis minima eveniet facilis, beatae, repudiandae quo, ipsum possimus et. Numquam tenetur blanditiis quos placeat earum necessitatibus amet perspiciatis.</p>
     </div>
     </div>
-
     </header>
-<?php include 'includes/footer.php'; ?>
+<?php include './includes/footer.php'; ?>
 <script src="assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
