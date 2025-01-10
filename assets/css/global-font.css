@@ -1,0 +1,18 @@
+/* Define the custom font globally using @font-face */
+@font-face {
+    font-family: 'AegirSeaborn'; /* Name for the custom font */
+    src: url('../font/AegirSeaborn.ttf') format('truetype'); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font to the entire page */
+*{
+    font-family: 'AegirSeaborn', sans-serif; /* Apply font to body */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #101820;
+}
