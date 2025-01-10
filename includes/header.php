@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg" style="background-color: #333;">
         <div class="container-fluid">
-            <a class="navbar-brand" style="color: white;" href="index.php">Aegirian</a> <!-- Link to Home page -->
+            <a class="navbar-brand" style="color: white;" href="nothing.php">Aegirian</a> <!-- Link to Home page -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

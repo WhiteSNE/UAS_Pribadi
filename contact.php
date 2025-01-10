@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/global-font.css">
+        <link rel="stylesheet" href="assets/css/contact-theme.css">
         <title>Title</title>
     </head>
 
@@ -18,7 +19,7 @@
                     <div class="card-container position-absolute top-50 start-50 translate-middle text-center text-white">
                         <!-- Text Section -->
                         <div class="mb-4">
-                            <h1 class="text-center">Contact Us</h1>
+                            <h1 class="text-center" style="text-decoration:underline;">Contact Us</h1>
                             <p class="text-center">
                                 We love to hear your thoughts about our city. If you have any questions, feel free to contact us!
                             </p>

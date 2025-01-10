@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    background-color: #0B1124; /* Deep navy blue for the main background */
+    color: #E5E5E5; /* Light gray for text */
+    font-family: 'AegirSeaborn', sans-serif; /* Underwater-inspired font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Image */
+.banner-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+}
+
+.card-container {
+    background-color: rgba(11, 17, 36, 0.8); /* Slightly transparent overlay for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
+}
+
+/* Section Titles */
+h1 {
+    color: #C5A560; /* Muted gold for section headings */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #E5E5E5;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Card Styling */
+.card {
+    background-color: #102A3D; /* Dark background for card */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Enhanced shadow effect */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 18rem;
+}
+
+.card-title {
+    color: #F9E79F; /* Softer gold for highlight */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #C5A560;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #F9E79F; /* Lighter gold on hover */
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #081120; /* Dark gradient for a mysterious look */
+    color: #D3D3D3; /* Softer gray for text contrast */
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #C5A560;
+}
+
+.modal-title {
+    color: #C5A560;
+}
+
+/* Form Styling */
+.form-label {
+    color: #F9E79F; /* Softer gold for form labels */
+}
+
+.form-control {
+    background-color: #0B1124;
+    color: #E5E5E5;
+    border: 1px solid #C5A560;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #F9E79F;
+    box-shadow: 0 0 5px rgba(249, 231, 159, 0.5);
+}
+
+.btn {
+    background-color: #C5A560;
+    color: #0B1124;
+}
+
+.btn:hover {
+    background-color: #F9E79F;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

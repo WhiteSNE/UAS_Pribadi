@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/global-font.css">
+        <link rel="stylesheet" href="assets/css/facility-theme.css">
         <title>Title</title>
     </head>
 
@@ -13,7 +14,7 @@
         <main>
             <!--Description-->
             <div class="container-fluid" style="padding-top: 4rem; margin: 0; width: 100%;">
-    <h1 class="text-center">Our Facility</h1>
+    <h1 class="text-center" style="text-decoration:underline;">Our Facility</h1>
     <p class="text-center" style="font-size: 1em; max-width: 800px; margin: 2rem auto; line-height: 1.6;">
         Welcome to the Aegir Underwater City, a marvel of modern engineering submerged deep beneath the ocean's surface. 
         This city, built in harmony with the marine world, is a sanctuary for those seeking refuge from the surface world. 
@@ -27,7 +28,7 @@
             <img src="assets/img/Background-Aegir_Institute.webp" alt="Institute" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="col-md-6">
-            <h2>Aegir Research Institute</h2>
+            <h2 style="text-decoration:underline;">Aegir Research Institute</h2>
             <p style="line-height: 1.6;">
                 At the heart of the city lies the Aegir Research Institute, a facility dedicated to the study of oceanic life 
                 and the preservation of marine ecosystems. Scientists here unravel the secrets of bioluminescence, 
@@ -42,7 +43,7 @@
             <img src="assets/img/Background-Aegir_Office.webp" alt="Office" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="col-md-6">
-            <h2>Deep Sea Commerce Hub</h2>
+            <h2 style="text-decoration:underline;">Deep Sea Commerce Hub</h2>
             <p style="line-height: 1.6;">
                 The Commerce Hub is a bustling center for trade and innovation, where oceanographers, engineers, and entrepreneurs 
                 collaborate on groundbreaking projects. Its transparent dome offers panoramic views of the vibrant marine life, 
@@ -57,7 +58,7 @@
             <img src="assets/img/Background-Aegir_Room.webp" alt="Abyss Room" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="col-md-12">
-            <h2 class="text-center">The Abyss Room</h2>
+            <h2 class="text-center" style="text-decoration:underline;">The Abyss Room</h2>
             <p class="text-center" style="line-height: 1.6; max-width: 800px; margin: 1rem auto;">
                 Hidden deep within the city lies the Abyss Room, a serene chamber that offers a direct connection to the 
                 mysterious abyss below. This tranquil space is a haven for reflection and discovery, where visitors 

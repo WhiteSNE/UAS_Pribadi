@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    background-color: #0B1124; /* Deep navy blue for the main background */
+    color: #E5E5E5; /* Light gray for text */
+    font-family: 'AegirSeaborn', sans-serif; /* Underwater-inspired font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Titles */
+h1, h2 {
+    color: #C5A560; /* Muted gold for section headings */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+/* Text Paragraphs */
+p {
+    color: #E5E5E5;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px; /* Rounded corners for a softer aesthetic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+}
+
+/* Row Styling */
+.row {
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.row img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.row img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Enhanced shadow effect */
+}
+
+/* Section Content */
+.col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.col-md-6 h2 {
+    text-align: left;
+    color: #C5A560;
+    margin-bottom: 1rem;
+}
+
+.col-md-6 p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Abyss Room Special Styling */
+#AbyssRoomSection {
+    background: linear-gradient(135deg, #081120, #102A3D); /* Dark gradient for a mysterious look */
+    padding: 2rem 0;
+}
+
+#AbyssRoomSection h2 {
+    color: #F9E79F; /* Softer gold for highlight */
+}
+
+#AbyssRoomSection p {
+    color: #D3D3D3; /* Softer gray for text contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-md-6, .col-md-12 {
+        margin: 1rem 0;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

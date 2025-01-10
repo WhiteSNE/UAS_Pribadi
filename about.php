@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/global-font.css">
+        <link rel="stylesheet" href="assets/css/about-theme.css">
         <title>Title</title>
     </head>
 
@@ -13,7 +14,7 @@
         <main>
             <!--Description-->
             <div class="container-fluid" style="padding-top: 4rem; margin: 0; width: 100%;">
-                <h1 class="text-center">About Us</h1>
+                <h1 class="text-center" style="text-decoration:underline;">About Us</h1>
                 <p class="text-center" style="font-size: 1em; max-width: 800px; margin: 2rem auto; line-height: 1.6;">
                     Welcome to the Aegir Underwater City, a marvel of modern engineering submerged deep beneath the ocean's surface. 
                     This city, built in harmony with the marine world, is a sanctuary for those seeking refuge from the surface world. 
