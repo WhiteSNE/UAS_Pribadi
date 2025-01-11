@@ -42,6 +42,26 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
 }
 
+/* Progress Bar Section */
+.progress-bar {
+    max-width: 600px; /* Set a maximum width if you want to limit its length */
+    background-color: #f3f3f3; /* Light gray background */
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px auto; /* Center the bar horizontally */
+}
+
+.progress {
+    height: 30px;
+    background-color: #3498db; /* Blue color for progress */
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px; /* Vertically center the text */
+    color: white;
+    font-weight: bold;
+}
+
+
 /* Text Section */
 h1 {
     color: #C5A560; /* Muted gold for headings */
@@ -149,7 +169,6 @@ footer {
         flex-direction: column; /* Stack image and text vertically */
     }
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {

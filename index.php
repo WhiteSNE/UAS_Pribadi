@@ -1,3 +1,29 @@
+<?php
+// Database connection
+include('./includes/config.php');
+
+// Get the database connection
+$conn = getDatabaseConnection();
+
+// Query to count the number of registered users
+$result = $conn->query("SELECT COUNT(*) AS user_count FROM users");
+if (!$result) {
+    die("Query failed: " . $conn->error);
+}
+
+$data = $result->fetch_assoc();
+$userCount = $data['user_count'];
+
+// Set the target number of users (change this value to your goal)
+$maxUsers = 10;  // Change this value to set the goal for registered users
+
+// Calculate progress
+$progress = ($userCount / $maxUsers) * 100; // Calculate the percentage
+
+// Close the connection
+$conn->close();
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -49,6 +75,16 @@
         </div>
     </div>
 </div>
+<!-- Progress Bar Section -->
+<div class="bar-title justify-content-center" style="padding-top:4rem; text-decoration:underline;">
+            <h1 class="text-center">Registered Member</h1>
+        </div>
+<div class="progress-bar">
+        <div class="progress" role="progressbar" style="width: <?php echo $progress; ?>%;" aria-valuenow="<?php echo $userCount; ?>" aria-valuemin="0" aria-valuemax="<?php echo $maxUsers; ?>">
+            <?php echo $userCount . " / " . $maxUsers; ?> Registered
+        </div>
+    </div>
+
         <!-- Description -->
         <div class="container-fluid" style="padding-top: 4rem; margin: 0; width: 100%;">
             <h1 class="text-center" style="text-decoration:underline;">What Are We</h1>
