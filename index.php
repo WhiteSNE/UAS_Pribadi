@@ -18,16 +18,37 @@
     <?php include('includes/header.php'); ?>
     <main>
         <!-- Banner -->
-        <div class="container-fluid" style="padding: 0; margin: 0; width: 100%;">
-            <div class="banner-img" style="position: relative; overflow: hidden; width: 100%; height: 40rem;">
-                <img src="assets/img/car1.jpg" alt="banner-img-main" style="width: 100%; height: 100%; object-fit: cover;">
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2rem; text-align: center; font-family: 'AegirSeaborn', sans-serif;">
-                    <p class="text-center">Welcome to Aegir Underwater City</p>
-                    <button class="btn btn-primary" onclick="document.querySelector('#agentSection').scrollIntoView({ behavior: 'smooth' });">Meet Our Agents</button>
-                </div>
+<div class="container-fluid" style="padding: 0; margin: 0; width: 100%;">
+    <div class="banner-img" style="position: relative; overflow: hidden; width: 100%; height: 40rem;">
+        <img src="assets/img/car1.jpg" alt="banner-img-main" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2rem; text-align: center; font-family: 'AegirSeaborn', sans-serif;">
+            <p class="text-center">Welcome to Aegir Underwater City</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#preRegModal">Pre-Register Now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Pre-Registration -->
+<div class="modal fade" id="preRegModal" tabindex="-1" aria-labelledby="preRegModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="preRegModalLabel">Pre-Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="preRegForm" method="POST">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <div id="message" style="margin-top: 10px;"></div>
             </div>
         </div>
-
+    </div>
+</div>
         <!-- Description -->
         <div class="container-fluid" style="padding-top: 4rem; margin: 0; width: 100%;">
             <h1 class="text-center" style="text-decoration:underline;">What Are We</h1>
@@ -106,7 +127,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Gladia Modal -->
         <div class="modal fade" id="gladiaModal" tabindex="-1" aria-labelledby="gladiaModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -127,7 +147,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Skadi Modal -->
         <div class="modal fade" id="skadiModal" tabindex="-1" aria-labelledby="skadiModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -148,7 +167,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Spectre Modal -->
         <div class="modal fade" id="spectreModal" tabindex="-1" aria-labelledby="spectreModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -174,6 +192,7 @@
     <?php include('includes/footer.php') ?>            
     
     <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/js/regist.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
