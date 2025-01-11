@@ -32,7 +32,8 @@ $conn->close();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/global-font.css">
     <link rel="stylesheet" href="assets/css/theme.css">
-    <title>Title</title>
+    <link rel="icon" href="assets/img/Aegir.webp" type="image/webp">
+    <title>Aegir</title>
     <style>
         html {
             scroll-behavior: smooth;
